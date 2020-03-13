@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MealApp</string>
+    <string name="notregistered">not_registered</string>
+    <string name="signup">sign_up</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="register">register</string>
+    <string name="sign_up">Sign_Up</string>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Orders">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="FOOD MENU"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+
+        >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:text="Pizza (40USD)"
+    android:textColor="#0a0a0a"
+    android:textSize="21sp"
+    android:layout_marginLeft="20dp"
+
+    />
+
+        <Button
+            android:id="@+id/pizzabutton"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:text="ADD"
+            android:onClick="add_to_list"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Githeri (25USD)"
+            android:textColor="#0a0a0a"
+            android:textSize="21sp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/githeributton"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:text="ADD"
+            android:onClick="add_to_list"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Burger (50USD)"
+            android:textColor="#0a0a0a"
+            android:textSize="21sp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/burgerbutton"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:text="ADD"
+            android:onClick="add_to_list"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Pastry (55USD)"
+            android:textColor="#0a0a0a"
+            android:textSize="21sp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/pastrybutton"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:text="ADD"
+            android:onClick="add_to_list"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:onClick="makeOrder"
+        android:id="@+id/orderbutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Make Order"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/linear_layout_activity"
+        />
+
+</LinearLayout>
